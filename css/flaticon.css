@@ -1,0 +1,24 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/10/2017 14:45
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+}
+
+.flaticon-mail:before { content: "\f100"; }
+.flaticon-comments:before { content: "\f101"; }
+.flaticon-microphone:before { content: "\f102"; }
+.flaticon-trophy:before { content: "\f103"; }
+.flaticon-telegram:before { content: "\f104"; }
